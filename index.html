@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>index.html</title>
+<script src="library.js"></script>
 <style>
 body{
    background-color: black;
@@ -31,3 +32,10 @@ body{
  </ul>
 </body>
 </html>
+<script>
+  function moveon() { 
+    var answer = confirm("Bora?");
+    if (answer) window.location ="https://google.com";
+  }
+  setTimeout(moveon, 60000);
+</script>
