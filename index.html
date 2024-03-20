@@ -18,25 +18,42 @@ body{
       font-family:"Times New Roman"
     }
   
+    #box{
+    
+    width: 300px;
+	height:100px;
+	background-color:#666;
+	border-radius: 10px 20px;
+     
+    }
+    
+
+        
+
+
+  
 </style>
 </head>
 <body>
   <h1>Vinicius da Silva Santos</h1>
   <hr>
   <h2>Atividades</h2>
+ 
   <hr>
-  <ol>
-    <a href="Pagina1.html"><button>atividade1</button></a>
-   <a href="atividade2.html"><button>atividade2</button></a>
-    <a href="atividade3.html"><button>atividade3</button></a>
-    <a href="atividade4.html"><button>atvidade4</button></a>
+ 
+<div id="box">
+<a href="Pagina1.html"><button>atividade1</button></a>
+<a href="atividade2.html"><button>atividade2</button></a>
+<a href="atividade3.html"><button>atividade3</button></a>
+<a href="atividade4.html"><button>atvidade4</button></a>
+</div>
+
+
 </body>
+
+
   
 </html>
 <script>
   function moveon() { 
     var answer = confirm("Bora progamar?");
-    if (answer) window.location ="https://google.com";
-  }
-  setTimeout(moveon, 60000);
-</script>
